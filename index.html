@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #333333;
+        }
+        .navbar {
+            height: 56px;
+            width: 100vw;
+            background: #646464;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: calc(100vw - 400px);
+            justify-content: center;
+        }
+        .item {
+            padding: 1em;
+            font-family: 'Poppins';
+            font-weight: 700;
+            color: #cccccc;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .item:hover {
+            background: #333333;
+            color: #a3a3a3;
+            transition: 0.5s;
+        }
+        .item:hover p {
+            border-bottom: 2px solid #a3a3a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="item" id="projects">
+                <p>Projects</p>
+            </div>
+            <div class="item" id="about">
+                <p>About</p>
+            </div>
+            <div class="item" id="home">
+                <p>Home</p>
+            </div>
+            <div class="item" id="projects">
+                <p>Projects</p>
+            </div>
+            <div class="item" id="abouts">
+                <p>About</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
